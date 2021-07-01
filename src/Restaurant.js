@@ -115,6 +115,6 @@ export const Restaurant = props => {
           />
         </View>
       </ScrollView>
-    </View>
+    </View>   
   );
 };
