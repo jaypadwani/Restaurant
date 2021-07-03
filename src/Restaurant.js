@@ -1,6 +1,12 @@
 import React from 'react';
 import {Text, View, TouchableOpacity, Image, ScrollView} from 'react-native';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 export const Restaurant = props => {
+
+  const countryCall=()=>{
+  
+  }
+ 
   return (
     <View style={{flex: 1, backgroundColor: 'white'}}>
       <View
@@ -100,7 +106,7 @@ export const Restaurant = props => {
             }}>
             Discount
           </Text>
-
+<TouchableOpacity onPress={()=>countryCall()}>
           <Image
             source={{
               uri: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80',
@@ -113,6 +119,7 @@ export const Restaurant = props => {
               marginBottom: 20,
             }}
           />
+          </TouchableOpacity>
         </View>
       </ScrollView>
     </View>   
