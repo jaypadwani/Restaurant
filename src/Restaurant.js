@@ -1,6 +1,6 @@
 import React from 'react';
 import {Text, View, TouchableOpacity, Image, ScrollView} from 'react-native';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
+
 export const Restaurant = props => {
 
   const countryCall=()=>{
